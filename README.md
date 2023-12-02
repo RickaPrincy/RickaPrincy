@@ -12,7 +12,8 @@ public:
   void play_chess();
   void do_cardistry();
   bool is_dead();
-  ~RickaPrincy(){
+  ~RickaPrincy()
+  {
     std::cout << "RickaPrincy was happy"  << std::endl;
   }
 };
@@ -21,7 +22,8 @@ public:
 int main(int argc, char *argv[])
 {
   RickaPrincy ricka_princy;
-  while(!ricka_princy.is_dead()){
+  while(!ricka_princy.is_dead())
+  {
     ricka_princy.write_code();
     ricka_princy.play_chess();
     ricka_princy.do_cardistry();
