@@ -4,7 +4,7 @@
 
 ```cpp
 RickaPrincy
-  .write_code({{"editor", "lunarvim"},{"os", "linux"})
+  .write_code({{"editor", "lunarvim"},{"os", "linux"}})
   .then()
   .play_chess()
   .then()
