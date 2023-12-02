@@ -3,36 +3,12 @@
 ### What I Call a Perfect and Clean Code
 
 ```cpp
-enum BestEditor{ LUNAR_VIM };
-class RickaPrincy
-{
-public:
-  RickaPrincy();
-  void write_code(BestEditor editor = LUNAR_VIM);
-  void play_chess();
-  void do_cardistry();
-  bool is_dead();
-  ~RickaPrincy()
-  {
-    std::cout << "RickaPrincy was happy"  << std::endl;
-  }
-};
-
-// ----------------------------------------------
-int main(int argc, char *argv[])
-{
-  RickaPrincy ricka_princy;
-  while(!ricka_princy.is_dead())
-  {
-    ricka_princy.write_code();
-    ricka_princy.play_chess();
-    ricka_princy.do_cardistry();
-  }
-  return 0 /*_*/;
-}
+RickaPrincy
+  .write_code({{"editor", "lunarvim"},{"os", "linux"})
+  .then()
+  .play_chess()
+  .then()
+  .do_cardistry()
+  .repeat()
+  .build();
 ```
-
-<hr/>
-
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=RickaPrincy&theme=onedark&hide_border=true&include_all_commits=true&count_private=true)
-![](https://github-readme-streak-stats.herokuapp.com/?user=RickaPrincy&hide_border=true&theme=onedark&private=true&layout=compact)
