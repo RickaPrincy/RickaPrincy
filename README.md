@@ -12,3 +12,5 @@ RickaPrincy
   .repeat()
   .build();
 ```
+
+![CodeWars](https://www.codewars.com/users/Ricka%20Princy/badges/large)
